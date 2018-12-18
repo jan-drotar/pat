@@ -1,13 +1,18 @@
 package piaty.raz;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "funguje" );
+import javafx.application.Application;
+import javafx.stage.Stage;
+
+
+public class App extends Application {
+    
+	public static void main( String[] args ) {
+        launch(args);
     }
-}
+
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		
+		
+	}
+} 
